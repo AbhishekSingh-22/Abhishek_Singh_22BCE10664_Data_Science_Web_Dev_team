@@ -1,20 +1,199 @@
-/* ---------------------- This CSS file is for index.html --------------------------- */
+/* ********************************************** This CSS file is for index.html ****************************************** */
 
-/* Resizing navbar */
+/* Importing Google Fonts for website  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Ubuntu:wght@500&display=swap");
 
-
-#logo{
-    height: 81px;
-    width: 243px;
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Adding fonts to differnet Texts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* Font For headings */
+.mainheading {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 85px;
 }
 
-#nav{
-    position: sticky;
-    top: 0px;
+/* Font for content  */
+.maincontent {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
 }
-@media screen and (min-width: 950px) {
-    #nav{
-        height: 75px;
-    }
-    
+
+.subheading {
+  font-size: 60px;
+}
+
+.subcontent {
+  font-size: 20px;
+}
+
+.keywords {
+  color: purple;
+}
+
+.inside {
+  text-shadow: 0 0 5px #845ec2;
+}
+
+/* #data:hover{
+    background-color: #913BFF;
+    color: white;
+    border-radius: 1000px;
+    padding: 10px;
+} */
+
+/* Adding gradient background color  */
+body {
+  /* height: 300vh; */
+  /* margin-top:100px ; */
+  background-image: linear-gradient(
+    to left top,
+    #913bff,
+    #bb67fc,
+    #d992fb,
+    #eebdfc,
+    #fde9ff
+  );
+}
+
+/* Adjusting height of navbar logo */
+#logo {
+  height: 72px;
+}
+
+#signupBtn {
+  border: 2px solid #845ec2;
+  color: #845ec2;
+  font-weight: bold;
+}
+
+#signupBtn:hover {
+  color: white;
+  background-color: #845ec2;
+  font-weight: bold;
+}
+
+/* Css Style for Nav items  */
+.nav-link {
+  border-radius: 15px;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nav-link:hover {
+  background-color: #845ec2;
+  color: white;
+  border-radius: 15px;
+}
+
+.nav-link#active {
+  background-color: #845ec2;
+  color: rgba(255, 255, 255, 0.997);
+  font-weight: bolder;
+  /* padding; */
+}
+
+#comingSoon{
+    background-color: #845ec2;
+    color:#23143c;
+    border: 1px solid #23143c ;
+}
+
+#comingSoon:hover{
+    background-color: #fde9ff;
+    color:#23143c;
+    text-shadow: 0 0 5px #845ec2;
+    /* border: 1px solid white ; */
+}
+
+
+
+/* CSS before removing body height  */
+/* #FirstDiv{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    height: 50%;
+    color: #23143c;
+} */
+
+#FirstDiv {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 120px;
+  height: 50%;
+  padding: 250px 232px;
+  color: #23143c;
+}
+/* h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #2a2a2a;
+    font-size: 5rem;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;   
+} */
+/* #navbar::before{
+    content: "";
+    position: absolute;
+    background-color:rgb(255, 249, 249);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+} */
+
+/* Previous CSS before removing body height in vh  */
+/* #FirstDiv::before{
+    content: "";
+    position:absolute;
+    border-radius: 25px;
+    margin-top: 10px;
+    background: url('../Images/—Pngtree—data\ science\ isometric\ illustration\ concept_4860367.png') no-repeat center center/cover;
+    height: 100%;
+    width: 70%;
+    z-index: -1;
+    opacity: 0.6;
+    margin:105px;
+} */
+
+#FirstDiv::before {
+  content: "";
+  position: absolute;
+  border-radius: 25px;
+  margin-top: 10px;
+  background: url(../Images/—Pngtree—data\ science\ isometric\ illustration\ concept_4860367.png)
+    no-repeat center center/cover;
+  height: 99%;
+  width: 65%;
+  z-index: -1;
+  opacity: 0.6;
+  margin: -162px -70px;
+}
+
+#mainEvent {
+  content: "";
+  position: absolute;
+  border-radius: 25px;
+  background: url(../Images/MainEvent.jpg) no-repeat center center/cover;
+  z-index: 1;   
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Adding Responsive Behaviour %%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+@media screen and (max-width: 648px) {
+  #landingContainer::before {
+    content: "";
+    position: absolute;
+    background: url("../Images/—Pngtree—data\ science\ isometric\ illustration\ concept_4860367.png")
+      no-repeat center center/cover;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    /* margin-top: 93px; */
+  }
 }
