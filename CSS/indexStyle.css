@@ -74,7 +74,8 @@ body {
 .nav-link {
   border-radius: 15px;
   font-size: 16px;
-  font-family: "Ubuntu", sans-serif;
+  /* font-weight: bold; */
+  /* font-family: "Ubuntu", sans-serif; */
 }
 
 .nav-link:hover {
@@ -90,6 +91,20 @@ body {
   /* padding; */
 }
 
+#navSignup{
+    border-radius: 7px;
+    color: white;
+    border: 1px solid purple;
+    background-color: purple;
+}
+
+#navSignup:hover{
+    color: purple;
+    border: 1px solid purple;
+    background-color: white;
+}
+
+
 #comingSoon{
     background-color: #845ec2;
     color:#23143c;
@@ -102,6 +117,20 @@ body {
     text-shadow: 0 0 5px #845ec2;
     /* border: 1px solid white ; */
 }
+
+
+
+/* footer{
+    background-image: linear-gradient(
+    to left top,
+    #913bff,
+    #bb67fc,
+    #d992fb,
+    #eebdfc,
+    #fde9ff
+  ); */
+
+    /* /* background-color: #FDE9FF; */
 
 
 
@@ -181,6 +210,51 @@ p{
   background: url(../Images/MainEvent.jpg) no-repeat center center/cover;
   z-index: 1;   
 }
+
+
+
+#email{
+    display: inline;
+    height: 59px;
+    width: 345px;
+}
+
+#signup{
+    height: 59px;
+    width: 100px;
+    margin-left: 5px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid purple;
+    background-color: purple;
+}
+
+#signup:hover{
+    height: 59px;
+    width: 100px;
+    margin-left: 5px;
+    border-radius: 20px;
+    color: purple;
+    border: 1px solid purple;
+    background-color: white;
+}
+
+
+.footerlink{
+    color: purple;
+    text-decoration: none;
+}
+
+#journey{
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Adding Responsive Behaviour %%%%%%%%%%%%%%%%%%%%%%%%%  */
 
