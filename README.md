@@ -7,5 +7,6 @@ This is highly responsive website with all necessary details I could have added 
 If I would have given more time I would have added animations and an full Event Section to make this website more attractive and effective.
 Moreover, I would have fixed some responsiveness issue if I would have got more time.
 
-### To run website
-Open index.html and its Done
+## To run website
+1. Clone or download this repo in any of your folder
+2. Open index.html inside the folder and its Done
