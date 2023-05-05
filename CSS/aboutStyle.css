@@ -1,0 +1,199 @@
+/* ********************************************** This CSS file is for about.html ****************************************** */
+
+/* Importing Google Fonts for website  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Ubuntu:wght@500&display=swap");
+
+/* ******************************************* Adding fonts to differnet Texts starts here ********************************** */
+/* Font For main headings */
+.mainheading {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 85px;
+}
+
+/* Font for main content  */
+.maincontent {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+
+/* Fonts for subheading  */
+.subheading {
+  font-size: 60px;
+}
+
+/* Fonts for subcontent  */
+.subcontent {
+  font-size: 20px;
+}
+
+
+/* ******************************************* Adding fonts to differnet Texts ends here ********************************** */
+
+
+
+/* Highlighting the keywords  */
+.keywords {
+  color: purple;
+}
+
+
+
+
+/* Adding gradient background color  */
+body {
+
+  background-image: linear-gradient(
+    to left top,
+    #913bff,
+    #bb67fc,
+    #d992fb,
+    #eebdfc,
+    #fde9ff
+  );
+}
+
+/* Adjusting height of navbar logo */
+#logo {
+  height: 72px;
+}
+
+/* signupBtn styling in newsletter section  */
+#signupBtn {
+  border: 2px solid #845ec2;
+  color: #845ec2;
+  font-weight: bold;
+}
+
+#signupBtn:hover {
+  color: white;
+  background-color: #845ec2;
+  font-weight: bold;
+}
+
+
+
+/* Css Style for Nav items  */
+.nav-link {
+  border-radius: 15px;
+  font-size: 16px;
+  /* font-weight: bold; */
+  /* font-family: "Ubuntu", sans-serif; */
+}
+
+.nav-link:hover {
+  background-color: #845ec2;
+  color: white;
+  border-radius: 15px;
+}
+
+.nav-link#active {
+  background-color: #845ec2;
+  color: rgba(255, 255, 255, 0.997);
+  font-weight: bolder;
+  /* padding; */
+}
+
+#navSignup{
+    border-radius: 7px;
+    color: white;
+    border: 1px solid purple;
+    background-color: purple;
+}
+
+#navSignup:hover{
+    color: purple;
+    border: 1px solid purple;
+    background-color: white;
+}
+
+
+
+
+/* Styling newsletter section   */
+#email{
+    display: inline;
+    height: 59px;
+    width: 345px;
+}
+
+#signup{
+    height: 59px;
+    width: 100px;
+    margin-left: 5px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid purple;
+    background-color: purple;
+}
+
+#signup:hover{
+    height: 59px;
+    width: 100px;
+    margin-left: 5px;
+    border-radius: 20px;
+    color: purple;
+    border: 1px solid purple;
+    background-color: white;
+}
+
+
+/* CSS for footer section */
+.footerlink{
+    color: purple;
+    text-decoration: none;
+}
+
+
+/* CSS for first section   */
+#journey{
+    border-radius: 20px;
+}
+
+#logoabout{
+    height: 140px;
+    width: 340px;
+}
+
+
+#firstsection{
+  margin-top: 100px;
+    height: 434px;
+    background: url(../Images/journey.jpg) no-repeat center center/cover;
+}
+
+/*Group image in about section  */
+#aboutimg{
+
+  height: 340px;
+  border-radius: 25px;
+
+}
+
+/* Styling the profile pics in the meet the team section  */
+.profilepics{
+    height: 167px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Adding Responsive Behaviour %%%%%%%%%%%%%%%%%%%%%%%%%  */
+
+
+
+
+@media screen and (max-width: 992px) {
+    #firstsection{
+        height: 676px;
+    }
+}

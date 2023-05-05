@@ -3,46 +3,50 @@
 /* Importing Google Fonts for website  */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Ubuntu:wght@500&display=swap");
 
-/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% Adding fonts to differnet Texts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
-/* Font For headings */
+/* ******************************************* Adding fonts to differnet Texts starts here ********************************** */
+/* Font For main headings */
 .mainheading {
   font-family: "Ubuntu", sans-serif;
   font-size: 85px;
 }
 
-/* Font for content  */
+/* Font for main content  */
 .maincontent {
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
 }
 
+/* Fonts for subheading  */
 .subheading {
   font-size: 60px;
 }
 
+/* Fonts for subcontent  */
 .subcontent {
   font-size: 20px;
 }
 
+
+/* ******************************************* Adding fonts to differnet Texts ends here ********************************** */
+
+
+
+/* Highlighting the keywords  */
 .keywords {
   color: purple;
 }
 
+
+/* styles for text inside images  */
 .inside {
   text-shadow: 0 0 5px #845ec2;
 }
 
-/* #data:hover{
-    background-color: #913BFF;
-    color: white;
-    border-radius: 1000px;
-    padding: 10px;
-} */
+
 
 /* Adding gradient background color  */
 body {
-  /* height: 300vh; */
-  /* margin-top:100px ; */
+
   background-image: linear-gradient(
     to left top,
     #913bff,
@@ -58,6 +62,7 @@ body {
   height: 72px;
 }
 
+/* signupBtn styling in newsletter section  */
 #signupBtn {
   border: 2px solid #845ec2;
   color: #845ec2;
@@ -70,7 +75,14 @@ body {
   font-weight: bold;
 }
 
+
+
 /* Css Style for Nav items  */
+/* #navbarSupportedContent{
+  background-color: #FDE9FF;
+} */
+
+
 .nav-link {
   border-radius: 15px;
   font-size: 16px;
@@ -145,6 +157,8 @@ body {
     color: #23143c;
 } */
 
+
+/* Styling the first section  */
 #FirstDiv {
   display: grid;
   justify-content: center;
@@ -203,6 +217,9 @@ p{
   margin: -162px -70px;
 }
 
+
+
+/* styling the main event card  */
 #mainEvent {
   content: "";
   position: absolute;
@@ -212,7 +229,7 @@ p{
 }
 
 
-
+/* Styling newsletter section   */
 #email{
     display: inline;
     height: 59px;
@@ -240,6 +257,7 @@ p{
 }
 
 
+/* CSS for footer section */
 .footerlink{
     color: purple;
     text-decoration: none;
@@ -250,6 +268,55 @@ p{
 }
 
 
+.icons{
+  height: 50px;
+}
+
+.icon-container{
+  background-color: purple;
+  border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+#firstsection{
+  margin-top: 100px;
+    height: 434px;
+    background: url(../Images/journey.jpg) no-repeat center center/cover;
+}
+
+#aboutimg{
+
+  height: 340px;
+  border-radius: 25px;
+
+}
+
+#playbtn{
+  height: 65px;
+}
+
+#introvideo{
+  color: purple;
+  text-decoration: none;
+}
+
+/* Styling the profile pics in the meet the team section  */
+.profilepics{
+  height: 167px;
+}
+
+
+
+
+
 
 
 
@@ -258,7 +325,7 @@ p{
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Adding Responsive Behaviour %%%%%%%%%%%%%%%%%%%%%%%%%  */
 
-@media screen and (max-width: 648px) {
+/* @media screen and (max-width: 648px) {
   #landingContainer::before {
     content: "";
     position: absolute;
@@ -268,6 +335,41 @@ p{
     width: 100%;
     z-index: -1;
     opacity: 0.8;
-    /* margin-top: 93px; */
+    /* margin-top: 93px;
+  }
+} */
+@media screen and (max-width: 992px) {
+  #FirstDiv::before {
+    content: "";
+    position: absolute;
+    border-radius: 25px;
+    margin-top: 10px;
+    background: url(../Images/—Pngtree—data\ science\ isometric\ illustration\ concept_4860367.png) no-repeat center center/cover;
+    height: 110%;
+    width: 65%;
+    z-index: -1;
+    opacity: 0.6;
+    margin: -171px -184px;
+}
+
+  #datainfoDiv{
+    margin-left: 10px;
+  }
+
+  .eventimages{
+    width:466px;
+    
+
+  }
+
+  .eventDiv{
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #datainfoimg{
+    margin-left:-10px;
+    height: 308px;
   }
 }
