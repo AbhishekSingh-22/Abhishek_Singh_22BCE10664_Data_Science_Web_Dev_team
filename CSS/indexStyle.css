@@ -4,6 +4,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Ubuntu:wght@500&display=swap");
 
 /* ******************************************* Adding fonts to differnet Texts starts here ********************************** */
+
+
+
+
 /* Font For main headings */
 .mainheading {
   font-family: "Ubuntu", sans-serif;
@@ -46,7 +50,8 @@
 
 /* Adding gradient background color  */
 body {
-
+  
+  overflow-x: hidden;
   background-image: linear-gradient(
     to left top,
     #913bff,
@@ -373,3 +378,5 @@ p{
     height: 308px;
   }
 }
+
+
